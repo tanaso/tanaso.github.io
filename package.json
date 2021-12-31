@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "typecheck": "tsc"
   },
@@ -15,7 +15,10 @@
     "react-dom": "^17.0.2",
     "remark": "13.0.0",
     "remark-html": "13.0.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "zenn-content-css": "^0.1.81",
+    "zenn-markdown-html": "^0.1.81",
+    "zenn-embed-elements": "^0.1.81"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
@@ -23,6 +26,8 @@
     "@types/react": "^17.0.6",
     "@types/react-dom": "^17.0.5",
     "autoprefixer": "10.4.0",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
     "postcss": "8.4.5",
     "tailwindcss": "3.0.5"
   }
